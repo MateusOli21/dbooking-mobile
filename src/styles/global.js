@@ -33,8 +33,9 @@ export const Wrapper = styled.SafeAreaView`
 export const LogoRegular = styled.Text`
   color: ${theme.secondary};
   font-family: ${fonts.montserratBold};
-  font-size: ${fontSizes.h6};
+  font-size: ${fontSizes.h5};
   text-align: center;
+  margin: 24px 0 32px;
 `;
 
 export const LogoPlus = styled.Text`
